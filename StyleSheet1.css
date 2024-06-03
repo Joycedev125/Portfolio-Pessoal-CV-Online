@@ -1,0 +1,81 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    /* Define a família de fontes do corpo do documento */
+    line-height: 1.6;
+    /* Define a altura da linha para melhorar a legibilidade */
+    margin: 0;
+    /* Remove a margem padrão do corpo */
+    padding: 0;
+    /* Remove o preenchimento padrão do corpo */
+}
+
+header {
+    background: #333;
+    /* Define a cor de fundo do cabeçalho como um tom escuro */
+    color: #fff;
+    /* Define a cor do texto do cabeçalho como branco */
+    padding: 1rem 0;
+    /* Adiciona preenchimento ao redor do cabeçalho */
+}
+
+nav ul {
+    list-style: none;
+    /* Remove os marcadores de lista padrão */
+    padding: 0;
+    /* Remove o preenchimento da lista */
+    display: flex;
+    /* Exibe os itens da lista em linha */
+    justify-content: center;
+    /* Centraliza os itens da lista horizontalmente */
+}
+
+nav ul li {
+    margin: 0 1rem;
+    /* Define a margem ao redor dos itens da lista */
+}
+
+nav ul li a {
+    color: #fff;
+    /* Define a cor dos links como branco */
+    text-decoration: none;
+    /* Remove a decoração padrão dos links (sublinhado) */
+}
+
+main {
+    padding: 1rem;
+    /* Adiciona preenchimento ao redor do conteúdo principal */
+}
+
+footer {
+    background: #333;
+    /* Define a cor de fundo do rodapé como um tom escuro */
+    color: #fff;
+    /* Define a cor do texto do rodapé como branco */
+    text-align: center;
+    /* Centraliza o texto no rodapé */
+    padding: 1rem 0;
+    /* Adiciona preenchimento ao redor do rodapé */
+    position: fixed;
+    /* Define o rodapé como fixo na parte inferior da tela */
+    bottom: 0;
+    /* Posiciona o rodapé na parte inferior da tela */
+    width: 100%;
+    /* Define a largura do rodapé para cobrir 100% da tela */
+}
+
+form {
+    display: flex;
+    /* Define o layout do formulário como flexbox */
+    flex-direction: column;
+    /* Exibe os elementos do formulário em coluna */
+}
+
+form label {
+    margin-top: 1rem;
+    /* Adiciona margem superior aos rótulos do formulário */
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5rem;
+    /* Adiciona margem superior aos campos de entrada, área de texto e botão do formulário */
+}
